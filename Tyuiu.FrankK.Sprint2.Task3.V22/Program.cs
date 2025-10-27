@@ -9,8 +9,8 @@ namespace Tyuiu.FrankK.Sprint2.Task3.V22
             Console.WriteLine("Введите Х: ");
             double x;
             x = Convert.ToDouble(Console.ReadLine());
-            double res = ds.Calculate(x);
-            Console.WriteLine(Math.Round(x,3));
+            double res = Math.Round(ds.Calculate(x),3);
+            Console.WriteLine(x);
             Console.ReadKey();
         }
     }
