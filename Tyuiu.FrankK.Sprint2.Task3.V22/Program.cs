@@ -10,7 +10,7 @@ namespace Tyuiu.FrankK.Sprint2.Task3.V22
             double x;
             x = Convert.ToDouble(Console.ReadLine());
             double res = ds.Calculate(x);
-            Console.WriteLine(x);
+            Console.WriteLine(Math.Round(x,3));
             Console.ReadKey();
         }
     }
